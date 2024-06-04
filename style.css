@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 10px 8%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.nav-bar{
+    padding: 0 0 45px ;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 10%;
+    display:flex;
+    align-items: center;
+    z-index: 10;
+    overflow: hidden;
+}
+nav h1{
+    width: 180px;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav button {
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.4em;
+    margin: 10px;
+    cursor: pointer;
+  }
+nav button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+nav button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+.content-box{
+    margin-top: 6%;
+    max-width: 600px;
+}
+.content-box h1{
+    font-size: 60px;
+    line-height: 90px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.content-box button{
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.4em;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.content-box button:hover{
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+.content-box button:active{
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+div .front-img{
+    rotate: 13deg;
+    background: white;
+}
+.front-img{
+    width: 240px;
+    height: 350px;
+    align-items:top;
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top:25%;
+    z-index: 2;
+    border: 3px solid black;
+    box-shadow: 0.6em 0.6em;
+}
+.front-img img{
+    width: 200px;
+    height: 200vm;
+    overflow: clip;
+    margin-top: 20px;
+
+}
+.front-img h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.front-img h1 span{
+    font-weight: 20;
+}
+.front-img{
+    width: 240px;
+    height: 350px;
+    align-items:top;
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top:25%;
+    z-index: 2;
+    border: 3px solid black;
+    box-shadow: 0.6em 0.6em;
+    background-color:white;
+}
+div .front-img2{
+    rotate: -5deg;
+    background: white;
+}
+.front-img2 img{
+    width: 200px;
+    height: 200vm;
+    overflow: clip;
+    margin-top: 20px;
+
+}
+.front-img2 h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.front-img2 h1 span{
+    font-weight: 20;
+}
+.front-img2{
+    width: 240px;
+    height: 350px;
+    align-items:top;
+    text-align: center;
+    position: absolute;
+    right: 16%;
+    top:35%;
+    z-index: 2;
+    border: 3px solid black;
+    box-shadow: 0.6em 0.6em;
+}
+.trending-artwork{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    color: white;
+    padding: 10px 8%;
+    position: relative;
+    background-color: black;
+    justify-content: space-between;
+}
+div .card-img{
+    background: white;
+}
+.card-img img{
+    width: 200px;
+    height: 200vm;
+    overflow: clip;
+    margin-top: 20px;
+}
+.card-img h1{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-img h1 span{
+    font-weight: 20;
+    color: black;
+}
+.card-img{
+    width: 240px;
+    height: 350px;
+    align-items:top;
+    text-align: center;
+    flex-basis: 22%;
+    z-index: 2;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.4em;
+    margin-bottom: 30px;
+}
+
+.card-img:hover{
+    transform: translate(-0.1em, -1em);
+    box-shadow: 0.20em 0.20em;
+}
+.card-img:active{
+    transform: translate(0.002em, 0.002em);
+    box-shadow: 0.2em 0.2em;
+}
+
+.text-col h2{
+    font-size: 90px;
+}
+div .cards{
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+    color: rgb(81, 81, 81);
+    background-color:black;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.about-NFT{
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 10px 8%;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 50px;
+}
+.about-NFT h1{
+    align-items: center;
+    display: flex;
+    border: 2px solid black;
+    width: 250px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    color: white;
+    background-color: #000000;
+
+}
+div .update{
+    border:2px solid black;
+    border-radius: 2px;
+    height: 250px;
+    justify-content: center;
+    width: 320px;
+    padding: 20px;
+    border: 3px solid #000000;
+    margin-top: 50px;
+}
+.cardsec{
+    display: flex;
+    justify-content: space-between;
+}
+.update h3{
+    position: relative;
+    top:-50px;
+    left: 75px;
+}
+.update p{
+    margin-top: 2px;
+    text-align: center;
+}
+.Explore{
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 10px 8%;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #c7c7c7;
+}
+.Explore h1{
+    justify-content: center;
+    margin-top: 20px;
+}
+.card-exp{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin:40px;
+}
+.card-img2{
+    width: 240px;
+    height: 350px;
+    align-items:top;
+    text-align: center;
+    flex-basis: 22%;
+    z-index: 2;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: 0.4em 0.4em;
+    margin-bottom: 30px;
+}
+.card-img2 img{
+    width: 200px;
+    height: 200vm;
+    overflow: clip;
+    margin-top: 20px;
+}
+div .card-img2{
+    background: white;
+}
+.card-img2 h1{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card-img2 h1 span{
+    font-weight: 20;
+    color: black;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 2px 30px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid black;
+    box-shadow: inset 0 0 0 0 black;
+  } 
+  .btn:hover {
+    color: black;
+    box-shadow: inset 0 -100px 0 0 white;
+  }
+  .btn:active {
+    transform: scale(0.9);
+  }
+.contactus{
+    width: 100%;
+    min-height: 100vh;
+    color: black;
+    padding: 10px 8%;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 50px;
+}
+.reachout img{
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    border: 2px solid white;
+}
+.reachout{
+    width: 100%;
+    min-height: 50vh;
+    padding: 10px 8%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.reachout h1{
+    margin-top: 20px;
+}
+.reachout h2{
+    margin-top: 50px;
+}
+.reachout p{
+    justify-content: center;
+}
+.reachout a i{
+    margin-top: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+.email{
+    margin-top: 10px;
+}
